@@ -1,10 +1,17 @@
 header {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 0 16.5rem;
+    padding: 3.2rem 0;
+    max-width: 1600px;
+    border-bottom: 1px solid #979797;
+}
+
+.header__logo {
+    flex-grow: 1;
 }
 
 .nav {
+    flex-grow: 2;
     display: flex;
     align-items: center;
 }
@@ -24,11 +31,11 @@ header {
     font-weight: 700;
 }
 
-#cart-btn {
+#cart__btn {
     border: none;
     background-color: transparent;
 }
 
-#cart-btn:hover {
+#cart__btn:hover {
     cursor: pointer;
 }

@@ -6,7 +6,7 @@ import '../styles/Header.css'
 export default function Header() {
   return (
     <header>
-      <Link to="/" className="header-logo">
+      <Link to="/" className="header__logo">
         <img src={logo} alt="audiophile" />
       </Link>
       <nav className="nav">
@@ -25,7 +25,7 @@ export default function Header() {
             </li>
         </ul>
       </nav>
-      <button id="cart-btn">
+      <button id="cart__btn">
         <img src={iconCart} alt="cart" />
       </button>
     </header>
