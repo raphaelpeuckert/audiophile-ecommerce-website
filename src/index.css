@@ -3,4 +3,11 @@
 :root {
   font-size: 62.5%;
   font-family: 'Manrope', sans-serif;
+  --clr__black: #000;
+  --clr__dark-grey: #101010;
+  --clr__white: #fff;
+  --clr__off-white: #fafafa;
+  --clr__light-grey: #f1f1f1;
+  --clr__peach: #fbaf85;
+  --clr__brown: #d87d4a;
 }

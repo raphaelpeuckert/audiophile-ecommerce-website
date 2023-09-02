@@ -1,6 +1,9 @@
 #home__hero {
     padding: 0 16.5rem;
-    background-color: black;
+    background-color: var(--clr__dark-grey);
+    background-image: url('../assets/home/desktop/image-hero.jpg');
+    background-size: 100%;
+    background-position: top right;
     display: flex;
     flex-direction: column;
     align-items: center;
