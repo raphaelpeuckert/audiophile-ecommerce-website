@@ -6,9 +6,8 @@ import '../styles/Home.css'
 export default function Home() {
     return (
         <div>
-            <section id="home__hero">
+            <section className="hero hero--home">
                 <Header />
-                <LinkBtn text='SEE PRODUCT'/>
             </section>
             <h1>This is the Home page</h1>
             <Footer />

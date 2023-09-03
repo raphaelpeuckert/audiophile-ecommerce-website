@@ -1,13 +1,21 @@
-import React from 'react';
+import Header from "./Header"
+import Headphones from "./Headphones"
+import React, { useState } from "react";
+import Speakers from "./Speakers";
+import Earphones from "./Earphones";
 
-export default function Category({ match }) {
-  // Hier kannst du die Produktinformationen basierend auf dem match-Objekt anzeigen.
-  const productId = match.params.productId;
+export default function Category(props) {
 
-  return (
-    <div>
-      <h2>Produktseite für Produkt ID {productId}</h2>
-      {/* Hier kannst du die Produktinformationen anzeigen */}
-    </div>
-  );
-};
+    const page = props.page;
+
+    return (
+        <div>
+            <Header />
+            <div>
+                {page === 'headphones' && <Headphones/>}
+                {page === 'speakers' && <Speakers/>}
+                {page === 'earphones' && <Earphones/>}
+            </div>
+        </div>
+    )
+}

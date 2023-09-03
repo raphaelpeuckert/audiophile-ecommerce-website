@@ -1,6 +1,4 @@
-#home__hero {
-    padding: 0 16.5rem;
-    background-color: var(--clr__dark-grey);
+.hero--home {
     background-image: url('../assets/home/desktop/image-hero.jpg');
     background-size: 100%;
     background-position: top right;
